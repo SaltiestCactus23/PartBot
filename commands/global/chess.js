@@ -135,7 +135,7 @@ function runMoves (run, info, game) {
 }
 
 module.exports = {
-	help: `The Chess module. Use \`\`${prefix}chess new\`\` to make a game, and \`\`${prefix}chess spectate\`\` to watch. To resign, use \`\`${prefix}chess resign\`\``,
+	help: `The Chess module. Use \`\`${prefix}chess new\`\` to make a game, and \`\`${prefix}chess spectate\`\` to watch. To resign, use \`\`${prefix}chess resign\`\`. Rules: https://www.instructables.com/Playing-Chess/`,
 	permissions: 'none',
 	commandFunction: function (Bot, room, time, by, args, client, isPM) {
 		if (!args[0]) args.push('help');
